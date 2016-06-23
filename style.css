@@ -204,7 +204,7 @@ a:hover, a:focus, a:active {
   color: #ff6300;
   font-family: 'Allan', cursive;
   font-size: 80px;
-  top: 230%;
+  top: 240%;
   left: 15%;
 }
 
@@ -221,10 +221,12 @@ text-align:center;
 
 }
 .zoom img {
+transition: 0.3s;
 width:400px;
 height:480px;
 }
 .zoom img:hover {
+transition: 0.3s;
 width:450px;
 height:550px;
 }
@@ -236,7 +238,7 @@ height:550px;
 .couture{
 
   position: absolute;
-  top: 265%;
+  top: 280%;
   left: 40%;
   transform: rotate(15deg);
 
@@ -245,7 +247,7 @@ height:550px;
 .patisserie{
 
   position: absolute;
-  top: 225%;
+  top: 240%;
   left: 50%;
   transform: rotate(-10deg);
   z-index: 1;
@@ -255,7 +257,7 @@ height:550px;
 .bricolage{
 
   position: absolute;
-  top: 225%;
+  top: 240%;
   left: 69%;
   transform: rotate(7deg);
   z-index: 2;
@@ -265,14 +267,17 @@ height:550px;
 .illustration{
 
   position: absolute;
-  top: 271%;
+  top: 280%;
   left: 60%;
   transform: rotate(-7deg);
 
 }
 
 /* texte galerie*/
-.pa{
+
+
+.p{}
+/*.pa{
   background-color: rgba(245, 243, 234, 0.7);;
   padding: 2px;
 
@@ -330,7 +335,12 @@ height:550px;
   left: 73%;
   transform: rotate(-7deg);
 
-}
+}*/
+
+
+
+
+
 
 /* page contact*/
 .contact{
