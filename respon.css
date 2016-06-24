@@ -1,4 +1,4 @@
-@media screen and (max-width: 480px){
+@media screen and (max-width: 720px){
 
     /* Ici du code s'appliquant aux écrans de moins de 480 pixels de large */
 
@@ -110,7 +110,7 @@
 
       position: absolute;
       top: 300%;
-      left: -5%;
+      left: 5%;
       transform: rotate(0deg);
 
     }
@@ -119,7 +119,7 @@
 
       position: absolute;
       top: 370%;
-      left: -5%;
+      left: 0%;
       transform: rotate(0deg);
       z-index: 1;
 
@@ -129,7 +129,7 @@
 
       position: absolute;
       top: 440%;
-      left: -5%;
+      left: 0%;
       transform: rotate(0deg);
       z-index: 2;
 
@@ -139,7 +139,7 @@
 
       position: absolute;
       top: 510%;
-      left: -5%;
+      left: 0%;
       transform: rotate(0deg);
 
     }
