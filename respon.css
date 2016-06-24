@@ -1,4 +1,4 @@
-@media screen and (max-width: 320px){
+@media screen and (max-width: 720px){
 
     /* Ici du code s'appliquant aux écrans de moins de 480 pixels de large */
 
@@ -13,7 +13,7 @@
   .r-gauche{
 
     position: absolute;
-    left: -20%;
+    left: -60%;
     top: -25%;
     height: 125%;
     }
